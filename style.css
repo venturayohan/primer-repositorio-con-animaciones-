@@ -280,7 +280,10 @@ form input{
     grid-template-columns: 1fr;
     grid-row: 1 / 3;
 }
-
+.carrusel .carousel-inner .carousel-item img{
+    width: 250px;
+    height: auto;
+}
 /*responsive mobile arbitrage*/
 @media screen and (max-width:450px) {
 .header-grid {
