@@ -284,7 +284,9 @@ form input{
     width: 250px;
     height: auto;
 }
-/*responsive mobile arbitrage*/
+/*=============================
+responsive mobile arbitrage
+===============================*/
 @media screen and (max-width:450px) {
 .header-grid {
     display: none;
@@ -326,7 +328,9 @@ margin: auto;
     font-size: 18px;
 }
 }
-/*responsive tablet arbitrage*/
+/*=============================
+responsive tablet arbitrage
+===============================*/
 @media screen  and (min-width:451px) and (max-width:960px){
     .article{
         text-align: center;
@@ -351,8 +355,9 @@ margin: auto;
     
 
 }
-
-/*reposive mobil index*/
+/*==========================
+reposive mobile index
+============================*/
 @media screen and (max-width:450px){
     .header-grid {
         display: none;
@@ -383,7 +388,9 @@ margin: auto;
         margin-top: 20%;
     }
 }
-/*responsive tablet index*/
+/*==========================
+responsive tablet index
+============================*/
 @media screen  and (min-width:451px) and (max-width:960px) {
     .header-grid {
         display: none;
@@ -412,8 +419,37 @@ margin: auto;
         flex-direction: column;
         margin: auto;
     }
-/*estilos nuevos con bootstrap*/
+
 }
+/*==========================
+    responsive mobile trade
+============================*/
+@media screen and (max-width:450px){
+    .title-h1{
+        font-size: 40px;
+    }
+    .celular{
+        display: none;
+    }
+    .celular2{
+        display: none;
+    }
+    .container{
+        align-items: center;
+        text-align: center;
+    }
+    .footer-grid .footer{
+        flex-direction: column;
+        margin: auto;
+    }
+    .footer-grid .footer .columna2{
+        display: none;
+    }
+    .parrafo .numero{
+        margin-left: 2rem;
+    }
+}
+
 .nav-style{
     margin-left: 4%;
     height: 5rem;
